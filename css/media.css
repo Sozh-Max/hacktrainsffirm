@@ -1,0 +1,186 @@
+@media (max-width: 1199px){
+	.container{
+		width: 970px;
+	}
+	.agenda_section .agenda_map .map_desc .map_text{
+		font-size: 40px;
+	}
+	.agenda_section .agenda_map .map_desc .title{
+		font-size: 70px;
+	}
+	.first_screen h1{
+		font-size: 50px;
+	}
+	.first_screen .title{
+		font-size: 36px;
+	}
+}
+@media (max-width: 991px){
+	.container{
+		width: 750px;
+	}
+	.gallery_section .gallery_block{
+		width: 33.3333%;
+	}
+	.speakers_section .speaker_block{
+		width: 33.3333%;
+	}
+	.agenda_section .agenda_map .map_desc .title{
+		font-size: 60px;
+		margin-bottom: 20px;
+	}
+	.agenda_section .agenda_map .map_desc .map_text{
+		font-size: 30px;
+	}
+	.header .navig .list_item{
+		margin-left: 20px;
+	}
+	.header .header_inner{
+		height: 48px;
+	}
+	.wrapper .main{
+		padding-top: 48px;
+	}
+	.first_screen .first_text{
+		width: 100%;
+		left: 0;
+		transform: none;
+	}
+}
+@media (max-width: 767px){
+	.container{
+		width: 100%;
+	}
+	.header .navig a{
+		font-size: 14px;
+	}
+	.first_screen .desctop_block{
+		display: none;
+	}
+	.first_screen .desctop_mobile{
+		display: block;
+	}
+	.first_screen .first_text{
+		background: none;
+	}
+}
+@media (max-width: 599px){
+	.title{
+		font-size: 32px;
+		margin-bottom: 30px;
+	}
+	.faq_section,
+	.description_section{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.speakers_section{
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+	.gallery_section{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.sponsors_section{
+		padding-top: 50px;
+		padding-bottom: 40px;
+	}
+	.speakers_section .speaker_block{
+		width: 50%;	
+	}
+	.gallery_section .gallery_block{
+		width: 50%;
+	}
+	.gallery_section .gallery_block{
+		padding: 5px;
+	}
+	.gallery_section .gallery_contain {
+    margin-left: -5px;
+    margin-right: -5px;
+	}
+	.agenda_section .agenda_map .map_desc{
+		position: static;
+		padding: 0;
+		margin-bottom: 40px;
+	}
+	.agenda_section .agenda_map .map_desc .title{
+		font-size: 32px;
+	}
+	.agenda_section .agenda_map .map_desc .map_text{
+		line-height: 1.4;
+		font-size: 20px;
+	}
+	.agenda_section .agenda_description{
+		padding-top: 10px;
+	}
+	.sponsors_section .sponsor_list{
+		margin-bottom: 40px;
+	}
+	.header .navig .list_item{
+		margin-left: 10px;
+	}
+	.header .header_inner{
+		display: block;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		height: 80px;
+	}
+	.header .logo{
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+	}
+	.header .navig .list_item{
+		margin-left: 0;
+	}
+	.header .navig{
+		justify-content: space-between;
+	}
+	.wrapper .main{
+		padding-top: 80px;
+	}
+	.first_screen .desctop_mobile{
+		height: 450px;
+		position: relative;
+	}
+	.first_screen .desctop_mobile img{
+		width: 600px;
+		position: absolute;
+		left: 50%;
+		top: 0;
+		margin-left: -300px;
+	}
+	.first_screen h1{
+		font-size: 36px;
+	}
+	.first_screen .title{
+		font-size: 26px;
+	}
+	.first_screen .date{
+		margin-bottom: 25px;
+	}
+	.first_screen .first_text{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+@media (max-width: 479px){
+	.header .navig a{
+		font-size: 12px;
+	}
+	.first_screen .first_text{
+		top: 5%;
+	}
+}
+@media (max-width: 399px){
+	.speakers_section .speaker_block{
+		width: 100%;
+	}
+	.header .navig a {
+    font-size: 11px;
+	}
+	.first_screen .date{
+		background: rgba(255,255,255,0.5);
+	}
+}
